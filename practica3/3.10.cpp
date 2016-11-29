@@ -57,7 +57,7 @@ int main()
 	while (true);
 	printf(mas);
 	getchar();
-    getchar();
+	getchar();
 	return 0;
 }
 

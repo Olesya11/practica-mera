@@ -19,7 +19,8 @@ char* swap(char* str){
         for(--e; (e > t) && isspace(*e); --e);
  
  
-    while(*str && (str < e)){
+    while(*str && (str < e))
+	{
 		while(isspace(*str))
             ++str;
  
@@ -35,13 +36,14 @@ char* swap(char* str){
         }
  
         e -= m;
-        if (*str){
+        if (*str)
+		{
             for (p = str; p < e; ++p){
                 ch_chg(c, *p, *(p + 1));
             }
             --e;
-        }
-    }
+		}
+	}
     return t;
 }
  
