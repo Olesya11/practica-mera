@@ -52,7 +52,7 @@ int main()
 	}
 	
 	getchar();
-    getchar();
+	getchar();
 	return 0;
 }
 

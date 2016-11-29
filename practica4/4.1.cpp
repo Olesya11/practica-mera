@@ -37,6 +37,6 @@ int main()
 		{
 			printf("%s\n", pc[i]);
 		}
-		getchar();
-		return 0;
+	getchar();
+	return 0;
 }
